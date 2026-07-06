@@ -1,0 +1,11 @@
+Key_gene_identification Directory (for each dataset):
+1GSExxxx.R: Download gene expression data and extract the expression matrix, platform annotation information, and sample information.
+2GSExxxx_HUGO.R: Map the probe IDs in the dataset to HUGO gene symbols, perform log₂ transformation on the expression values, and generate a gene expression matrix for subsequent analysis.
+3DEG.R: Differential expression analysis was performed using the limma package to identify differentially expressed genes. 
+4get_large_network.py: Screen for interaction relationships in the PPI network based on differentially expressed genes, and extract the largest connected subnetwork.
+5topological_differentiation: Based on the PPI network, multiscale topological features were extracted by combining persistent homology (PH) and Laplacian spectral features (PST), and gene topological importance scores were calculated separately under four thresholds.
+6combined_ph.py: Integrate the topological feature scores calculated under the four PPI confidence thresholds.
+7dentify.py: Select the top 25 key genes.
+8combined_topgenes.py: Integrate the top 25 key genes obtained under different PPI confidence thresholds.
+9identify_duplicate_genes.py: Screen for overlapping genes among the top 25 key genes identified under different PPI confidence thresholds.
+10GSExxxx_GO.R: Perform GO enrichment analysis on the key genes.
