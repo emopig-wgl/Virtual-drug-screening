@@ -1,0 +1,22 @@
+size of data: (228,)
+RF parameter: Namespace(n_estimators=10000, random_seed=0)
+fold= 1
+fold= 2
+fold= 3
+fold= 4
+fold= 5
+fold= 6
+fold= 7
+fold= 8
+fold= 9
+fold= 10
+
+========== FINAL RESULT ==========
+RF_BET -> RMSD: 1.9894, P: -0.2231, R2: -0.0117
+RF_AE -> RMSD: 1.6523, P: 0.5583, R2: 0.3022
+RF_ECFP -> RMSD: 0.9775, P: 0.8700, R2: 0.7558
+RF_AE_BET -> RMSD: 1.6534, P: 0.5574, R2: 0.3012
+RF_AE_ECFP -> RMSD: 1.0941, P: 0.8350, R2: 0.6940
+RF_BET_ECFP -> RMSD: 0.9774, P: 0.8700, R2: 0.7558
+RF_AE_BET_ECFP -> RMSD: 1.0936, P: 0.8352, R2: 0.6943
+total time: 15.608296917345788 h

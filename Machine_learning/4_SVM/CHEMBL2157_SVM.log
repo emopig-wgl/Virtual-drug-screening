@@ -1,0 +1,22 @@
+size of data: (69,)
+SVM parameter: Namespace(C=10, gamma='scale', kernel='rbf')
+fold= 1
+fold= 2
+fold= 3
+fold= 4
+fold= 5
+fold= 6
+fold= 7
+fold= 8
+fold= 9
+fold= 10
+
+========== FINAL RESULT ==========
+SVM_BET -> RMSD: 2.0582, P: -0.2375, R2: -0.3014
+SVM_AE -> RMSD: 1.0994, P: 0.8279, R2: 0.6287
+SVM_ECFP -> RMSD: 0.9967, P: 0.8468, R2: 0.6948
+SVM_AE_BET -> RMSD: 1.0994, P: 0.8279, R2: 0.6287
+SVM_AE_ECFP -> RMSD: 1.0487, P: 0.8519, R2: 0.6621
+SVM_BET_ECFP -> RMSD: 0.9967, P: 0.8468, R2: 0.6948
+SVM_AE_BET_ECFP -> RMSD: 1.0487, P: 0.8519, R2: 0.6621
+total time: 0.0008508277601665921 h

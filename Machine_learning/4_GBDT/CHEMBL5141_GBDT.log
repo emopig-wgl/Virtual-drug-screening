@@ -1,0 +1,22 @@
+size of data: (220,)
+GBDT parameter: Namespace(learning_rate=0.01, max_features='sqrt', n_estimators=10000, random_seed=0)
+fold= 1
+fold= 2
+fold= 3
+fold= 4
+fold= 5
+fold= 6
+fold= 7
+fold= 8
+fold= 9
+fold= 10
+
+========== FINAL RESULT ==========
+GBDT_BET -> RMSD: 1.7073, P: -0.1641, R2: -0.0064
+GBDT_AE -> RMSD: 0.8783, P: 0.8570, R2: 0.7336
+GBDT_ECFP -> RMSD: 0.8715, P: 0.8612, R2: 0.7377
+GBDT_AE_BET -> RMSD: 0.8707, P: 0.8599, R2: 0.7382
+GBDT_AE_ECFP -> RMSD: 0.8670, P: 0.8610, R2: 0.7405
+GBDT_BET_ECFP -> RMSD: 0.8722, P: 0.8610, R2: 0.7373
+GBDT_AE_BET_ECFP -> RMSD: 0.8712, P: 0.8596, R2: 0.7379
+total time: 3.8003099113702774 h
